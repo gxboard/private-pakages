@@ -1,0 +1,14 @@
+{
+  "name": "My Repository",
+  "homepage": "http://private-packages.example.org",
+  "repositories": [
+    { "type": "vcs", "url": "https://github.com/gxboard/symfony" }
+  ],
+  "require-all": true,
+  "output-dir": "public",
+  "archive": {
+    "directory": "dist",
+    "prefix-url": "https://private-packages.cdn.example.org",
+    "skip-dev": true
+  }
+}
